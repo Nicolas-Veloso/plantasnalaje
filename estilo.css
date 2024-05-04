@@ -106,6 +106,14 @@ h2 {
     text-align: center;
     
 }
+
+.atendimento p {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
 .redesociais h3 {
     color: #fff;
     text-align: center;
@@ -168,13 +176,38 @@ a {
     text-decoration: none;
 }
 
-#botao{
+#botao {
     padding:9px;
     background-color: green;
     color: #fff;
     border-radius: 50px;
+    transition: all 0.2s;
+}
+
+#botao:hover {
+    background-color: darkgreen;
 }
 
 .img-produtos {
     text-align: center;
 }
+
+.recado {
+    margin: 300px auto 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.recado a {
+    padding: 10px 20px;
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+    transition: all 0.2s;
+}
+
+.recado a:hover {
+    background-color: darkgreen;
+}
+
