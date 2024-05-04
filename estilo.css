@@ -147,7 +147,15 @@ p{
     color: #fff;
 }
 
+.img-categorias img{
+    border-radius: 50%;
+}
 
+.img-categorias p{
+    text-align: center;
+    font-weight: bolder;
+}
 
-
-
+#categorias {
+    margin: 100px;
+}
