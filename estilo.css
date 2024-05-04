@@ -77,6 +77,7 @@ h2 {
     font-weight: bold;
     text-align: center;
     margin-bottom: 50px;
+    font-size: 30px;
 }
 
 .produtos{
@@ -134,7 +135,11 @@ h2 {
 h3{
     color: #fff;
     font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
 }
+
 p{
     color: #fff;
 }
@@ -166,10 +171,6 @@ p{
 .img-categorias p{
     text-align: center;
     font-weight: bolder;
-}
-
-#categorias {
-    margin: 100px;
 }
 
 a {
