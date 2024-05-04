@@ -159,3 +159,7 @@ p{
 #categorias {
     margin: 100px;
 }
+
+a {
+    text-decoration: none;
+}
