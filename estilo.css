@@ -107,8 +107,7 @@ h2 {
 
 .atendimento h3 {
     color: #fff;
-    text-align: center;
-
+    text-align: left;
 }
 
 .atendimento p {
@@ -152,14 +151,6 @@ h3 {
 
 p {
     color: #fff;
-}
-
-.artigos {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 20px;
-    border: solid 2px white;
-    margin-top: 200px;
 }
 
 .wats {
@@ -363,8 +354,17 @@ a {
         font-size: 300%;
     }
 
+    .atendimento h3 {
+        text-align: center;
+    }
+
     .recado p {
         font-size: 70%;
         padding-bottom: 5%;
     }
 }
+    @media screen and (max-width: 1024px){
+        .bg_video{
+            display: block;
+        }
+    }
