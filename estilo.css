@@ -35,9 +35,7 @@ header{
     justify-content: space-between;
 }
 header.rolagem{
-    background-color: white
-
-    ;
+    background-color: white;
     padding: 20px 4%;
 }
 header.rolagem a{
@@ -98,11 +96,6 @@ h2 {
     color: white;
 }
 
-.contatos{
-    margin-top: 300px;
-
-
-}
 .atendimento h3 {
     color: #fff;
     text-align: center;
@@ -121,6 +114,10 @@ h2 {
     text-align: center;
     
 }
+.redesociais p{
+    display: inline;
+}
+
 #contato {
     display: flex;
     justify-content: space-around;
@@ -216,6 +213,131 @@ a {
 #cate {
     margin-top: 150px;
 }
+
+/* JOÃO */
+
+.menu-mobile{
+    background-color: #2c2c2c;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .5s;
+}
+.menu-mobile.abrir-menu{
+    width: 65%;
+}
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
+}
+.menu-mobile nav ul{
+    text-align: right;
+}
+.menu-mobile nav ul a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300px;
+    padding: 20px 10%;
+    display: block;
+
+}
+.menu-mobile nav ul a:hover{
+    color: black;
+}
+.menu-mobile .btn-fechar{
+    padding: 20px 5%;
+}
+.menu-mobile .btn-fechar i{
+    color: #fff;
+    font-size: 30px;
+}
+.btn-abrir-menu i{
+    color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 200%;
+    padding: 40px 5%;
+    z-index: 99998;
+    transition: .5s;
+}
+
+.overlay-menu{
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 8888;
+    display: none;
+}
+.btn-abrir-menu{
+        display: none;
+}
+@media screen and (max-width: 720px){
+    #header ul{
+        display: none;
+    }
+    .produtos{
+        flex-direction: column;
+        max-width: 300px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        grid-gap: 30px;
+    }
+    .btn-abrir-menu{
+        display: block;
+    }
+
+    .bg_video{
+        display:block;
+    }
+    header{
+        padding: 25px 4%;
+    }
+    .img{
+        width: 15%;
+    }
+    header.rolagem img{
+        display: flex;
+        width: 15%;
+    }
+    header.rolagem{
+        background-color: white;
+        padding: 5px 4%;
+    }
+    header.rolagem #btn-menu i{
+        color: black;
+        padding: 20px 5%;
+        transition: .5s;
+    }
+    #cate{
+        margin-top: -200px;
+    }
+    #contato{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .redesociais p{
+        display: none;        
+    }
+    .redesociais i{
+        font-size: 300%;
+    }
+    .recado p{
+        font-size: 70%;
+        padding-bottom: 5%;
+    }
+}    
+
+
 
 
 
