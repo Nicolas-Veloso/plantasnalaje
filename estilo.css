@@ -1,3 +1,4 @@
+/* FORMATACOES GERAIS */
 body {
     margin: 0;
     padding: 0;
@@ -5,9 +6,39 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #2c2c2c;
     background-color: #2c2c2c;
-
 }
 
+h2 {
+    margin-top: 300px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+h3 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+p {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+#cate {
+    margin-top: 150px;
+}
+/* FIM FORMATACOES GERAIS */
+
+/* INICIO VIDEO DE FUNDO */
 .bg_video {
     display: flex;
     height: 100vh;
@@ -17,7 +48,9 @@ body {
 .bg_video>video {
     width: 100%;
 }
+/* FIM VIDEO DE FUNDO */
 
+/* INICIO CABEÇALHO */
 .img {
     float: left;
     background-repeat: no-repeat;
@@ -78,16 +111,9 @@ header ul li a:hover {
 header ul:last-child {
     margin-right: 100px;
 }
+/* FIM CABEÇALHO */
 
-h2 {
-    margin-top: 300px;
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 30px;
-}
-
+/* INICIO SECTION PRODUTOS */
 .produtos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -105,6 +131,21 @@ h2 {
     color: white;
 }
 
+.img-categorias img {
+    border-radius: 50%;
+}
+
+.img-categorias p {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.img-produtos {
+    text-align: center;
+}
+/* FIM SECTION PRODUTOS */
+
+/* INICIO RODAPE */
 .atendimento h3 {
     color: #fff;
     text-align: left;
@@ -140,19 +181,9 @@ h2 {
     display: block;
     padding: 10px;
 }
+/* FIM RODAPE */
 
-h3 {
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 30px;
-}
-
-p {
-    color: #fff;
-}
-
+/* INICIO ICONE-WHATSAPP */
 .wats {
     font-size: 50px;
     position: fixed;
@@ -165,20 +196,9 @@ p {
     text-decoration: none;
     color: #fff;
 }
+/* FIM ICONE-WHATSAPP */
 
-.img-categorias img {
-    border-radius: 50%;
-}
-
-.img-categorias p {
-    text-align: center;
-    font-weight: bolder;
-}
-
-a {
-    text-decoration: none;
-}
-
+/* INICIO BOTAO-SAIBA MAIS */
 #botao {
     padding: 9px;
     background-color: green;
@@ -190,11 +210,9 @@ a {
 #botao:hover {
     background-color: darkgreen;
 }
+/* FIM BOTAO-SAIBA MAIS */
 
-.img-produtos {
-    text-align: center;
-}
-
+/* INICIO PAGINA WHATSAPP */
 .recado {
     margin: 300px auto 0 auto;
     text-align: center;
@@ -213,11 +231,9 @@ a {
 .recado a:hover {
     background-color: darkgreen;
 }
+/* FIM PAGINA WHATSAPP */
 
-#cate {
-    margin-top: 150px;
-}
-
+/* INICIO MENU RESPONSIVO */
 .menu-mobile {
     background-color: #2c2c2c;
     height: 100vh;
@@ -289,7 +305,10 @@ a {
 .btn-abrir-menu {
     display: none;
 }
+/* FIM MENU RESPONSIVO */
 
+
+/* INICIO RESPONSIVO */
 @media screen and (max-width: 720px) {
     #header ul {
         display: none;
@@ -368,3 +387,4 @@ a {
             display: block;
         }
     }
+    /* FIM RESPONSIVO */
